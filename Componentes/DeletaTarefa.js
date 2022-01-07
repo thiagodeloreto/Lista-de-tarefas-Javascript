@@ -14,4 +14,4 @@ const tarefaDeletada = (evento) => {
     return botaoDeleta;
 }
 
-export default BotaoDeleta; 
+export default BotaoDeleta;

@@ -3,6 +3,7 @@ body {
   }
   
   .app {
+  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +12,6 @@ body {
   }
   
   .todo-list {
-    background-color: #0B2027;
     font-family: "Space Mono", monospace;
     padding: 1rem;
     min-width: 400px;
@@ -20,9 +20,9 @@ body {
   
   .title {
     border-bottom: 1px solid rgba(246, 241, 209, 0.5);
+    color: #fff;
     font-size: 1.5rem;
     font-family: "BioRhyme", serif;
-    color: #F6F1D1;
   }
   
   .form {
@@ -74,6 +74,17 @@ body {
     padding: 1rem;
     min-width: 400px;
     min-height: 300px;
+    position: relative;
+    z-index: 0;
+  }
+
+  .ronaldo__foto{
+    position:absolute;
+    z-index: -1;
+    width: 70px;
+    margin-left: 360px;
+    border-radius: 12%;
+
   }
   
   .title {
